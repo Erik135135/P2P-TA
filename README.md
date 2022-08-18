@@ -3,4 +3,4 @@ P2P-TA is an open-source P2P trading algorithm made in EU funded SENDER project.
 
 
 
-Step 1: Download the P2P-TA
+Step 1: Download the P2P-TA, by clicking on 
