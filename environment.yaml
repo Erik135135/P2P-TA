@@ -1,17 +1,16 @@
-name: cxc-summer-analysis
+name: P2P-TA
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.9.0
   - pip=21.3.1
-  - jupyterlab
-  - ipykernel
   - pip:
-      - pandas==1.4.1
+      - pandas==1.4.2
+      - dash==2.3.1
+      - dash_auth==1.4.1
+      - networkx==2.7.1
+      - numpy==1.21.5
       - openpyxl==3.0.9
-      - PyYAML==6.0
-      - matplotlib==3.4.3
-      - seaborn==0.11.2
-      - pyarrow==8.0.0
-      - fastparquet==0.8.1
+      - plotly==5.6.0
+      - dash-bootstrap-compontents==1.1.0
