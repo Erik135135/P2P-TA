@@ -13,4 +13,4 @@ dependencies:
       - numpy==1.21.5
       - openpyxl==3.0.9
       - plotly==5.6.0
-      - dash-bootstrap-compontents==1.1.0
+      - dash-bootstrap-components==1.1.0
