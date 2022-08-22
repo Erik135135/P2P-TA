@@ -5,6 +5,7 @@ P2P-TA is an open-source P2P trading algorithm made in EU funded SENDER project.
 ## Requirements
 
 Download Anaconda
+
 Download Python-IDE (example Pycharm, Spyder etc.)
 
 ## Setup
