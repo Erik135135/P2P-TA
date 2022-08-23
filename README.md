@@ -38,6 +38,8 @@ Run the P2P-TA with standard settings
 
 Go to the folder data and open Input_data.xlsx. In the sheet "Overview", one will have different fields to fill in. To use the model, one has to insert production and demand data separate. 
 
+### Energy data
+
 The first two columns are "Energy data API address PV" and "Energy data API address demand" - In these fields, one should put the http://-address to the API, if one wants to connect with API.
 
 Format of API has to be: 
@@ -48,9 +50,16 @@ In the third column, one has to select the energy source of your data "Energy da
 
 For excel format, please insert the data in the excel files "Demand_data.xlsx" and "Production_data.xlsx". The dates are inserted in the first column, and in the rest, one inserts the users. In the rows under the users, one inserts the demand in "Demand_data.xlsx" and production in "Production_data.xlsx". If one wants to add more time, one increases the number of rows, and if one wants to add more users, one increases the number of columns.
 
+### Frequency
+
 The next step is to set the frequency of your data and the market, in the columns "Minute frequency P2P market (5,10,.. 60)" and "Minute frequency on API data (5,10,…60)". The market can not have a lower frequency than energy data. Additionally, the energy data has to add up to the market frequency. For example, if the energy data has a frequency of 5 minutes, the market can have 10, 15, 20, and up to 60. On the other hand, if the energy data has a frequency of 15 minutes, then the market can only be operated with 15, 30, 45 and 60 minutes.
 
+### P2P market operation horizon
+
 The next step is to decide the time horizon of the P2P market in the column "Time_alternative(Defined time, Today, All data)". In this column one have three alternative; Defined time, Today and All data. If one chooses Today, the market will run from running time and until the end of the day. If one write All data, the market will run from the start until the end of the insterted energy data (production and demand). The last alternative is Defined time, this is decided by writing in the columns "Start_time (yyyymmdd)" and "End_time (yyyymmdd)" in the excel file "Input_data.xlsx". With this alternative the P2P market will operate in the dates written.
+
+
+### Day ahead prices
 
 The next step is to get the day-ahead prices from the specific area. One has to get the API key from Ensto-e. To get it, one must follow three steps. 
 
