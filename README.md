@@ -52,6 +52,14 @@ The next step is to set the frequency of your data and the market, in the column
 
 The next step is to decide the time horizon of the P2P market in the column "Time_alternative(Defined time, Today, All data)". In this column one have three alternative; Defined time, Today and All data. If one chooses Today, the market will run from running time and until the end of the day. If one write All data, the market will run from the start until the end of the insterted energy data (production and demand). The last alternative is Defined time, this is decided by writing in the columns "Start_time (yyyymmdd)" and "End_time (yyyymmdd)" in the excel file "Input_data.xlsx". With this alternative the P2P market will operate in the dates written.
 
+The next step is to get the day-ahead prices from the specific area. One has to get the API key from Ensto-e. To get it, one must follow three steps. 
+
+1.	Register a user on the ENTSO-E transparency platform  
+2.	Request an API key by emailing transparency@entsoe.eu with “Restful API access” in the subject line. In the email text, state your registered email address. It can take some days, and then one will receive an email with the API key. The key is then visible in the ENTSO-E account under “Web API Security Token”.
+3.	
+Ultimately, one has to fill in the area code for the day-ahead prices. In this case, fill in the area where the P2P market will be operating. In the "Input_data.xlsx" in the sheet "Spot Price Data (more info)", one can find area codes for different countries.
+
+
 
 
 
