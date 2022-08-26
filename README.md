@@ -12,7 +12,7 @@ Download Python-IDE (example Pycharm, Spyder etc.)
 
 ### Step 1 
 
-Download the P2P-TA, by clicking on "Code" up in the right corner and click download.zip
+Download the P2P-TA, by clicking on "Code" up in the right corner and click download zip, and save it in the folder where you want to store it. Furthermore, open your Python-IDE software and createa a new project with this folder.
 
 ### Step 2
 
