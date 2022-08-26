@@ -12,7 +12,7 @@ Download Python-IDE (example Pycharm, Spyder etc.)
 
 ### Step 1 
 
-Download the P2P-TA, by clicking on code up in the right corner and click download P2P-TA.zip
+Download the P2P-TA, by clicking on "Code" up in the right corner and click download.zip
 
 ### Step 2
 
